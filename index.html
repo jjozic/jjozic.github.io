@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Julian Jozic</title>
+        <link rel="icon" href="./img/icon.png" title="Icon">
+        <link rel="stylesheet" href="css/normalize.css">
+        <!-- icons -->
+        <script src="https://kit.fontawesome.com/349d15ba9e.js" crossorigin="anonymous"></script>
+        <!-- fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <strong>Julian Jozic</strong>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">My skills</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Julian Jozic</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+            <img src="img/me.png" alt="picture of me" class="intro__img">
+        </section>
+        
+        
+        <!-- My skills -->
+        <section class="my-skills" id="skills">
+            <h2 class="section__title section__title--skills">What I do</h2>
+            <div class="skills">
+                <!-- / skill -->
+                <div class="skill">
+                    <h3>Development</h3>
+                    <p>I can code in JavaScript, Java, C#. Working with different kinds of frameworks is also no problem for me. </p>
+                </div>
+                <!-- / skill -->
+                <div class="skill">
+                    <h3>Design</h3>
+                    <p>For designing websites I use pure CSS.</p>
+                </div>
+            </div> <!-- / skills -->
+            
+            <a href="#work" class="btn">My Projects</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Developer based out of Austria</p>
+           
+           <div class="about-me__body">
+               <p>I have a passion for movies &#127916;, football &#x26BD;</p>
+           </div>
+           
+           <img src="./img/me-with-friend.PNG" alt="me with friend" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/portfolio-01.jpg" alt="Work in progress..." class="portfolio__img">
+                </a>
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:jjozic98@gmail.com" class="footer__link">jjozic98@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.instagram.com/jjozic98/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/jjozic">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
