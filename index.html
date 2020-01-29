@@ -5,14 +5,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Julian Jozic</title>
         <link rel="icon" href="./img/icon.png" title="Icon">
-        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="./css/normalize.css">
         <!-- icons -->
         <script src="https://kit.fontawesome.com/349d15ba9e.js" crossorigin="anonymous"></script>
         <!-- fonts -->
         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
         
-        <link rel="stylesheet" href="css/style.css">
-
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="./js/three.r95.min.js"></script>
+        <script src="./js/vanta.birds.min.js"></script>
     </head>
     <body>
         <header>
@@ -33,14 +34,15 @@
         </header>
         
         <!-- Introduction -->
-        <section class="intro" id="home">
-            <h1 class="section__title section__title--intro">
-                Hi, I am <strong>Julian Jozic</strong>
-            </h1>
-            <p class="section__subtitle section__subtitle--intro">front-end dev</p>
-            <img src="img/me.png" alt="picture of me" class="intro__img">
-        </section>
-        
+        <div class="birds">
+            <section class="intro" id="home">
+                <h1 class="section__title section__title--intro">
+                    Hi, I am <strong>Julian Jozic</strong>
+                </h1>
+                <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+                <img src="img/me.png" alt="picture of me" class="intro__img">
+            </section>
+        </div>        
         
         <!-- My skills -->
         <section class="my-skills" id="skills">
@@ -112,6 +114,8 @@
         
         
         <script src="js/index.js"></script>
+        <script src="./js/birds.js"></script>
+
         
     </body>
 </html>
