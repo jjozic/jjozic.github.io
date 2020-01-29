@@ -58,8 +58,6 @@ section {
 img {
     display: block;
     max-width: 62%;
-    opacity: 0.8;
-
 }
 
 strong { font-weight: var(--fw-bold) }
