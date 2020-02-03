@@ -57,7 +57,7 @@ section {
 
 img {
     display: block;
-    max-width: 62%;
+    max-width: 100%;
 }
 
 strong { font-weight: var(--fw-bold) }
