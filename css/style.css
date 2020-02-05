@@ -38,8 +38,9 @@
 
 /* General styles */
 
-html {
+*{
     scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
 }
 
 body {
