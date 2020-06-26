@@ -5,5 +5,5 @@
  - Used Font Awesome for the icons
  - Used Google Fonts for the fonts
  
- # Special thanks
+ ## Special thanks
  - First time using CSS variables, thanks to the tutorial on scrimba.com
