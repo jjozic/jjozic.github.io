@@ -387,7 +387,7 @@ header {
 }
 
 .portfolio__item {
-    max-height: 400px;
+    max-height: 250px;
     background: var(--clr-accent);
     overflow: hidden;
     position: relative;
