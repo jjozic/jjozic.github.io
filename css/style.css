@@ -124,7 +124,7 @@ h3 { font-size: var(--fs-h3) }
     background: var(--clr-accent);
     padding: .25em 1em;
     font-family: var(--ff-secondary);
-    margin-bottom: 1em;
+    margin-top: 1em;
 }
 
 .section__subtitle--work {
@@ -244,10 +244,17 @@ header {
 
 .intro {
     position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .intro__img {
     box-shadow: var(--bs);
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
 }
 
 .section__subtitle--intro {
