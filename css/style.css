@@ -331,13 +331,15 @@ header {
 @media (min-width: 800px) {
     .skills {
         display: flex;
-        max-width: 1000px;
-        margin-left: auto;
-        margin-right: auto;
+        align-items: center;
     }
     
     .skill + .skill {
-        margin-left: 2em;
+        margin-left: 1em;
+    }
+
+    .skill {
+        max-width: 350px;
     }
 }
 
